@@ -1,0 +1,18 @@
+﻿Build started 2/9/2014 9:37:52 PM.
+     1>Project "C:\Users\User\Documents\Visual Studio 2012\Projects\SimplePacketEditor\SimplePacketEditor\SimplePacketEditor.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\4.8.5\include /I.\GeneratedFiles\Release /IC:\Qt\4.8.5\include\QtCore /IC:\Qt\4.8.5\include\QtGui /IC:\boost\boost_1_53_0 /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MainForm.cpp Packet.cpp
+         MainForm.cpp
+         Packet.cpp
+     1>Packet.cpp(29): error C2653: 'Random' : is not a class or namespace name
+     1>Packet.cpp(29): error C2228: left of '.at' must have class/struct/union
+     1>Packet.cpp(29): error C3861: 'GenerateNumberInRange': identifier not found
+     1>Packet.cpp(61): error C2653: 'Address' : is not a class or namespace name
+     1>Packet.cpp(63): error C2653: 'Address' : is not a class or namespace name
+     1>Packet.cpp(66): error C2653: 'Address' : is not a class or namespace name
+         Generating Code...
+     1>Done Building Project "C:\Users\User\Documents\Visual Studio 2012\Projects\SimplePacketEditor\SimplePacketEditor\SimplePacketEditor.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:24.74

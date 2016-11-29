@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Form">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Form\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form\Generated Files\Debug">
+      <UniqueIdentifier>{f8c59a89-7b20-4d43-abf5-37de459217d3}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form\Generated Files\Release">
+      <UniqueIdentifier>{0b0685cc-b135-443b-b535-03e42aeeb02d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Form\MainForm">
+      <UniqueIdentifier>{9a901890-7369-4b3b-81e8-251ac1a62f2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapleStory">
+      <UniqueIdentifier>{3d32e481-9bfb-4c09-b7b7-8aa17cbc7307}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SimplePacketEditor.cpp">
+      <Filter>Form\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="MainForm.cpp">
+      <Filter>Form\MainForm</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainForm.cpp">
+      <Filter>Form\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_MainForm.cpp">
+      <Filter>Form\Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Packet.cpp">
+      <Filter>MapleStory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="MainForm.ui">
+      <Filter>Form\MainForm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainForm.h">
+      <Filter>Form\MainForm</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainForm.qrc">
+      <Filter>Form</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MultiInclude.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MainForm.h">
+      <Filter>Form\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Packet.h">
+      <Filter>MapleStory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
